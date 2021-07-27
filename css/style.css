@@ -11,3 +11,8 @@
 footer p a {
 	margin: 5px 15px;
 }
+@media (min-width:765px ) and (max-width:864.98px) {
+	div.img img {
+	  width: 360px;
+	}
+  }
