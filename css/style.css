@@ -1,18 +1,32 @@
 #home {
-	background: #ffc107;
-	color: white;
+  background: #ffc107;
+  color: white;
 }
 
 .caixa {
-	padding: 60px 0;
-	border-bottom: 1px solid #e5e5e5;
+  padding: 60px 0;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 footer p a {
-	margin: 5px 15px;
+  margin: 5px 15px;
 }
-@media (min-width:765px ) and (max-width:864.98px) {
-	div.img img {
-	  width: 360px;
-	}
+@media (min-width: 765px) and (max-width: 864.98px) {
+  div.img img {
+    width: 360px;
   }
+}
+
+@media only screen and (max-width: 600px){
+	input.form-control.form-control-sm {
+		width: 100%;
+		margin: 5px;
+	}
+	.input-group-append {
+		width: 100%!important;
+		margin: 5px;
+	}
+	button.btn.btn-primary {
+		width: inherit;
+	}
+}
